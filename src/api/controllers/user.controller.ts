@@ -6,6 +6,18 @@ export class UserController {
         id: 1,
         department: "IT",
         name: "Lalji",
+    }, {
+        id: 2,
+        department: "HR",
+        name: "Vikash",
+    }, {
+        id: 3,
+        department: "Support",
+        name: "Ronak",
+    }, {
+        id: 4,
+        department: "IT",
+        name: "Vimal",
     }];
     private path = '/users';
     private router = express.Router();
